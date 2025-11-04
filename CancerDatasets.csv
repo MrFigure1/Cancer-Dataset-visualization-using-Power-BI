@@ -1,0 +1,451 @@
+Patient_ID,Diagnosis,Stage,Start_Date,End_Date,Outcome,Treatment_Response_Score,Drug_Regimen,Hospital,Doctor,Survival_Status,Treatment_Cost_USD,Number_of_Cycles,Time_to_Response_Days,Follow_Up_Visits
+1001,Melanoma,Stage I,2022-01-26,2022-09-02,Stable,79.9,Regimen B,MD Anderson,Dr. Lee,Alive,34529.91,4,42,5
+1002,Melanoma,Stage I,2023-08-28,2024-01-13,Remission,67.2,Regimen A,Sloan Kettering,Dr. Lee,Alive,42163.57,6,30,2
+1003,Colorectal Cancer,Stage I,2023-07-29,2023-10-17,Deceased,83,Regimen B,Cleveland Clinic,Dr. Brown,Deceased,27607.05,4,90,1
+1004,Prostate Cancer,Stage I,2022-06-13,2023-01-07,Deceased,100,Regimen C,Johns Hopkins,Dr. Lee,Deceased,38780.35,9,31,8
+1005,Lung Cancer,Stage III,2022-04-15,2022-06-07,Deceased,65.3,Regimen A,Johns Hopkins,Dr. Chen,Deceased,31023.07,4,57,2
+1006,Prostate Cancer,Stage III,2022-02-14,2022-09-18,Deceased,65.3,Regimen A,Cleveland Clinic,Dr. Smith,Deceased,29053.45,3,46,7
+1007,Colorectal Cancer,Stage III,2023-10-06,2024-04-11,Stable,100,Regimen B,Sloan Kettering,Dr. Smith,Alive,34197.27,11,24,9
+1008,Pancreatic Cancer,Stage III,2022-03-23,2022-11-26,Progression,85.3,Regimen A,Cleveland Clinic,Dr. Johnson,Alive,27235.68,3,44,9
+1009,Pancreatic Cancer,Stage III,2022-06-16,2022-10-18,Stable,60.6,Regimen B,Johns Hopkins,Dr. Adams,Deceased,30847.63,10,101,8
+1010,Melanoma,Stage I,2023-09-16,2024-03-26,Progression,80.9,Regimen B,MD Anderson,Dr. Patel,Alive,26015.92,4,80,9
+1011,Melanoma,Stage II,2023-12-03,2024-03-25,Remission,60.7,Regimen B,Sloan Kettering,Dr. Chen,Alive,49735.44,10,41,2
+1012,Prostate Cancer,Stage I,2022-08-05,2023-04-25,Stable,60.7,Regimen B,Cleveland Clinic,Dr. Patel,Deceased,35264.48,5,20,6
+1013,Melanoma,Stage IV,2022-05-27,2022-09-01,Progression,74.8,Regimen B,Mayo Clinic,Dr. Brown,Alive,29752.06,8,19,4
+1014,Colorectal Cancer,Stage IV,2023-08-21,2023-12-31,Stable,31.7,Regimen B,MD Anderson,Dr. Brown,Alive,36604.85,5,82,4
+1015,Pancreatic Cancer,Stage I,2022-04-23,2022-07-01,Progression,35.5,Regimen D,Mayo Clinic,Dr. Smith,Alive,34157.54,9,87,5
+1016,Colorectal Cancer,Stage IV,2023-06-26,2023-09-28,Remission,58.8,Regimen A,Mayo Clinic,Dr. Chen,Alive,33342.73,11,86,3
+1017,Melanoma,Stage III,2022-04-25,2022-08-08,Deceased,49.7,Regimen B,Cleveland Clinic,Dr. Smith,Deceased,39606.25,4,66,1
+1018,Melanoma,Stage III,2023-05-28,2024-01-08,Progression,76.3,Regimen A,Johns Hopkins,Dr. Chen,Alive,40681.31,7,34,8
+1019,Colorectal Cancer,Stage II,2022-06-06,2022-10-09,Progression,51.8,Regimen A,Mayo Clinic,Dr. Johnson,Alive,31021.24,8,11,5
+1020,Breast Cancer,Stage III,2022-11-11,2023-02-10,Remission,41.8,Regimen B,Mayo Clinic,Dr. Smith,Alive,30681.36,6,73,3
+1021,Leukemia,Stage I,2023-06-30,2024-02-11,Progression,99.3,Regimen B,Cleveland Clinic,Dr. Brown,Alive,32937.11,6,44,7
+1022,Colorectal Cancer,Stage IV,2022-08-05,2023-04-29,Progression,65.5,Regimen C,Cleveland Clinic,Dr. Adams,Alive,17735.59,6,16,7
+1023,Leukemia,Stage IV,2022-05-04,2022-08-05,Progression,71.4,Regimen A,Johns Hopkins,Dr. Smith,Alive,23636.07,4,94,1
+1024,Lung Cancer,Stage II,2022-01-08,2022-02-25,Remission,41.5,Regimen B,Sloan Kettering,Dr. Smith,Deceased,45251.56,6,27,9
+1025,Breast Cancer,Stage II,2022-10-13,2023-05-02,Deceased,59.1,Regimen B,Mayo Clinic,Dr. Lee,Deceased,47337.26,3,76,2
+1026,Melanoma,Stage IV,2022-09-06,2023-04-24,Deceased,72.2,Regimen D,MD Anderson,Dr. Smith,Deceased,33132.23,8,51,5
+1027,Breast Cancer,Stage IV,2022-12-29,2023-05-16,Deceased,47,Regimen D,Sloan Kettering,Dr. Adams,Deceased,39324.18,3,48,5
+1028,Melanoma,Stage I,2022-03-04,2022-07-15,Stable,77.5,Regimen A,MD Anderson,Dr. Lee,Alive,37334.38,8,50,8
+1029,Leukemia,Stage II,2023-03-09,2023-05-24,Stable,58,Regimen D,MD Anderson,Dr. Chen,Deceased,58091.61,3,84,8
+1030,Leukemia,Stage I,2022-02-21,2022-09-05,Remission,64.2,Regimen A,MD Anderson,Dr. Lee,Alive,43396.81,8,112,7
+1031,Leukemia,Stage II,2023-02-15,2023-11-03,Remission,58,Regimen B,Cleveland Clinic,Dr. Smith,Deceased,34040.62,10,33,7
+1032,Prostate Cancer,Stage IV,2022-10-20,2023-03-07,Deceased,100,Regimen B,MD Anderson,Dr. Johnson,Deceased,27833.45,4,69,6
+1033,Lung Cancer,Stage I,2023-08-17,2024-03-22,Remission,69.7,Regimen C,Sloan Kettering,Dr. Smith,Alive,22951.65,4,55,6
+1034,Colorectal Cancer,Stage II,2022-02-28,2022-08-07,Remission,48.8,Regimen B,Sloan Kettering,Dr. Brown,Alive,36525.98,6,28,9
+1035,Pancreatic Cancer,Stage II,2023-02-18,2023-04-19,Progression,86.5,Regimen A,Mayo Clinic,Dr. Smith,Alive,29327.37,5,77,6
+1036,Colorectal Cancer,Stage III,2022-09-25,2022-12-16,Stable,45.6,Regimen B,Johns Hopkins,Dr. Patel,Alive,24333.1,6,99,2
+1037,Melanoma,Stage III,2023-04-14,2023-08-02,Remission,74.2,Regimen A,Cleveland Clinic,Dr. Brown,Deceased,30150.7,9,111,2
+1038,Breast Cancer,Stage I,2023-07-05,2023-09-27,Stable,30.8,Regimen B,Johns Hopkins,Dr. Smith,Deceased,26888.39,3,51,5
+1039,Prostate Cancer,Stage III,2022-06-11,2022-10-31,Stable,43.4,Regimen A,Mayo Clinic,Dr. Johnson,Deceased,47653.56,8,41,4
+1040,Breast Cancer,Stage II,2022-09-28,2022-11-26,Remission,73.9,Regimen B,Johns Hopkins,Dr. Johnson,Alive,41612.3,5,48,2
+1041,Melanoma,Stage III,2022-07-28,2023-02-18,Stable,84.8,Regimen D,Johns Hopkins,Dr. Chen,Alive,34940.21,9,118,3
+1042,Melanoma,Stage IV,2022-10-11,2022-11-21,Remission,73.4,Regimen C,MD Anderson,Dr. Adams,Deceased,46099.58,4,119,7
+1043,Lung Cancer,Stage IV,2023-07-19,2024-02-14,Deceased,67.7,Regimen A,Sloan Kettering,Dr. Smith,Deceased,35580.26,4,45,8
+1044,Melanoma,Stage II,2023-07-13,2023-08-21,Stable,64,Regimen B,Cleveland Clinic,Dr. Lee,Alive,28540.37,6,113,6
+1045,Prostate Cancer,Stage I,2023-01-02,2023-03-26,Progression,40.4,Regimen A,Johns Hopkins,Dr. Chen,Alive,46423.43,3,110,5
+1046,Pancreatic Cancer,Stage IV,2023-09-28,2024-05-06,Progression,55.6,Regimen B,MD Anderson,Dr. Chen,Alive,39041.83,5,106,1
+1047,Leukemia,Stage I,2022-07-03,2023-02-06,Stable,60.8,Regimen D,MD Anderson,Dr. Johnson,Alive,27220.65,11,45,8
+1048,Melanoma,Stage I,2023-01-27,2023-10-07,Remission,91.1,Regimen D,MD Anderson,Dr. Lee,Alive,33572.46,9,12,3
+1049,Leukemia,Stage III,2022-11-09,2023-07-07,Progression,76.9,Regimen B,Sloan Kettering,Dr. Adams,Alive,28432.86,9,82,6
+1050,Prostate Cancer,Stage III,2022-03-13,2022-10-26,Stable,34.7,Regimen C,Mayo Clinic,Dr. Patel,Alive,24629,6,17,3
+1051,Pancreatic Cancer,Stage III,2022-01-29,2022-03-29,Stable,76.5,Regimen B,Mayo Clinic,Dr. Johnson,Alive,41946.33,4,106,7
+1052,Colorectal Cancer,Stage IV,2022-12-20,2023-07-24,Stable,62.3,Regimen D,Mayo Clinic,Dr. Brown,Alive,49320.62,6,79,7
+1053,Colorectal Cancer,Stage II,2022-09-18,2022-10-29,Deceased,56.5,Regimen A,Mayo Clinic,Dr. Chen,Deceased,24510.74,8,50,9
+1054,Colorectal Cancer,Stage II,2023-01-08,2023-05-28,Remission,82.2,Regimen C,Mayo Clinic,Dr. Johnson,Alive,39222.27,5,112,5
+1055,Breast Cancer,Stage III,2023-06-04,2023-09-21,Deceased,90.6,Regimen C,Cleveland Clinic,Dr. Adams,Deceased,30120.18,3,77,8
+1056,Prostate Cancer,Stage II,2022-07-16,2022-11-30,Deceased,88.6,Regimen B,Mayo Clinic,Dr. Brown,Deceased,31346.56,10,22,8
+1057,Prostate Cancer,Stage IV,2023-07-16,2024-03-15,Remission,53.2,Regimen C,Johns Hopkins,Dr. Lee,Alive,30557.05,7,58,1
+1058,Colorectal Cancer,Stage III,2023-04-22,2023-09-12,Deceased,63.8,Regimen B,Mayo Clinic,Dr. Patel,Deceased,28520.07,7,69,5
+1059,Pancreatic Cancer,Stage II,2023-11-06,2023-12-27,Stable,76.6,Regimen C,Sloan Kettering,Dr. Chen,Deceased,35363.91,6,11,3
+1060,Lung Cancer,Stage III,2022-08-19,2023-04-12,Progression,89.5,Regimen B,Sloan Kettering,Dr. Smith,Alive,28767.87,8,69,1
+1061,Leukemia,Stage I,2023-04-12,2023-08-26,Progression,60.4,Regimen D,Cleveland Clinic,Dr. Patel,Alive,37028.43,5,14,4
+1062,Melanoma,Stage I,2022-04-20,2022-12-05,Deceased,66.3,Regimen B,MD Anderson,Dr. Chen,Deceased,34623.21,11,53,8
+1063,Melanoma,Stage IV,2022-02-21,2022-08-12,Progression,47.9,Regimen A,Cleveland Clinic,Dr. Lee,Alive,33207.89,7,36,3
+1064,Melanoma,Stage III,2023-03-30,2023-10-02,Deceased,46.1,Regimen D,MD Anderson,Dr. Adams,Deceased,28193.27,5,41,2
+1065,Pancreatic Cancer,Stage IV,2023-04-06,2023-07-11,Progression,86.3,Regimen C,Mayo Clinic,Dr. Patel,Alive,30674.22,3,30,9
+1066,Prostate Cancer,Stage IV,2022-03-21,2022-10-19,Stable,97.1,Regimen B,Johns Hopkins,Dr. Johnson,Alive,40665.43,8,17,5
+1067,Colorectal Cancer,Stage I,2022-05-22,2022-07-29,Progression,68.6,Regimen D,MD Anderson,Dr. Adams,Alive,38756.88,4,111,7
+1068,Leukemia,Stage IV,2022-12-05,2023-05-22,Deceased,90.1,Regimen D,Sloan Kettering,Dr. Lee,Deceased,27668.34,5,81,2
+1069,Pancreatic Cancer,Stage IV,2023-02-03,2023-10-22,Remission,77.2,Regimen D,Cleveland Clinic,Dr. Smith,Deceased,35744.99,3,59,9
+1070,Prostate Cancer,Stage IV,2023-03-06,2023-08-20,Progression,57.1,Regimen D,MD Anderson,Dr. Johnson,Alive,40635.4,11,76,9
+1071,Breast Cancer,Stage IV,2022-12-11,2023-06-30,Deceased,77.2,Regimen B,Cleveland Clinic,Dr. Lee,Deceased,22479.46,10,53,4
+1072,Colorectal Cancer,Stage I,2023-02-08,2023-08-08,Remission,100,Regimen A,Cleveland Clinic,Dr. Lee,Deceased,39075.2,4,67,4
+1073,Lung Cancer,Stage I,2022-09-24,2023-01-29,Stable,69.3,Regimen B,Cleveland Clinic,Dr. Johnson,Alive,30030.32,10,12,6
+1074,Leukemia,Stage III,2023-03-08,2023-06-10,Remission,100,Regimen D,Sloan Kettering,Dr. Adams,Alive,39279.49,11,95,6
+1075,Prostate Cancer,Stage II,2023-10-28,2023-12-14,Remission,17.6,Regimen A,MD Anderson,Dr. Lee,Alive,29275.56,3,79,1
+1076,Colorectal Cancer,Stage II,2022-09-02,2022-11-03,Deceased,86.4,Regimen A,Mayo Clinic,Dr. Lee,Deceased,21463.38,7,11,9
+1077,Leukemia,Stage III,2023-01-13,2023-03-26,Remission,71.7,Regimen B,Johns Hopkins,Dr. Smith,Alive,22793.43,10,96,2
+1078,Prostate Cancer,Stage IV,2023-02-11,2023-09-12,Progression,64,Regimen A,Mayo Clinic,Dr. Adams,Alive,35360.64,4,53,5
+1079,Lung Cancer,Stage I,2023-12-15,2024-07-29,Stable,71.8,Regimen A,Mayo Clinic,Dr. Chen,Alive,36947.92,6,11,9
+1080,Colorectal Cancer,Stage IV,2023-11-09,2024-03-12,Remission,30.2,Regimen C,Sloan Kettering,Dr. Chen,Alive,28217.63,9,111,4
+1081,Leukemia,Stage I,2023-03-20,2023-07-20,Deceased,65.6,Regimen B,Cleveland Clinic,Dr. Lee,Deceased,39789.44,5,90,3
+1082,Melanoma,Stage III,2023-09-23,2024-05-16,Deceased,77.1,Regimen D,Cleveland Clinic,Dr. Chen,Deceased,22538.6,7,44,7
+1083,Melanoma,Stage III,2022-11-27,2023-08-02,Progression,99.6,Regimen A,Johns Hopkins,Dr. Patel,Alive,34504.4,10,107,6
+1084,Leukemia,Stage IV,2022-12-11,2023-01-17,Deceased,59.6,Regimen C,MD Anderson,Dr. Patel,Deceased,25917.38,5,96,8
+1085,Lung Cancer,Stage III,2022-09-22,2023-01-17,Stable,53.8,Regimen C,Mayo Clinic,Dr. Smith,Alive,30111.23,6,39,3
+1086,Lung Cancer,Stage I,2022-09-05,2023-04-07,Deceased,60,Regimen D,Mayo Clinic,Dr. Chen,Deceased,35355.49,11,17,5
+1087,Lung Cancer,Stage IV,2023-10-24,2024-05-23,Deceased,88.3,Regimen D,Sloan Kettering,Dr. Smith,Deceased,28546.9,9,31,4
+1088,Prostate Cancer,Stage II,2023-02-19,2023-09-14,Progression,76.6,Regimen C,Mayo Clinic,Dr. Johnson,Alive,32115.83,3,53,4
+1089,Colorectal Cancer,Stage III,2023-03-12,2023-10-18,Stable,59.4,Regimen C,Cleveland Clinic,Dr. Johnson,Alive,42547.2,6,67,4
+1090,Lung Cancer,Stage I,2022-07-17,2022-11-04,Remission,80.3,Regimen B,MD Anderson,Dr. Lee,Alive,30673.31,6,45,8
+1091,Prostate Cancer,Stage III,2022-04-13,2022-12-12,Progression,71.9,Regimen C,MD Anderson,Dr. Johnson,Alive,41267.69,11,78,6
+1092,Breast Cancer,Stage II,2022-10-08,2022-11-18,Remission,89.4,Regimen C,MD Anderson,Dr. Adams,Deceased,26527.2,8,86,3
+1093,Leukemia,Stage I,2022-01-13,2022-07-08,Stable,56,Regimen D,Cleveland Clinic,Dr. Patel,Alive,38973.53,11,102,5
+1094,Breast Cancer,Stage III,2023-05-05,2023-07-03,Remission,63.4,Regimen D,Cleveland Clinic,Dr. Smith,Alive,45811.76,8,40,6
+1095,Melanoma,Stage I,2022-06-05,2022-08-12,Stable,62.2,Regimen A,MD Anderson,Dr. Smith,Alive,16462.67,8,56,5
+1096,Leukemia,Stage II,2023-06-20,2023-10-25,Deceased,40.7,Regimen D,Johns Hopkins,Dr. Chen,Deceased,29023.29,7,64,6
+1097,Colorectal Cancer,Stage IV,2022-11-09,2023-05-03,Remission,75.9,Regimen A,MD Anderson,Dr. Adams,Alive,39328.04,7,89,8
+1098,Melanoma,Stage I,2022-06-10,2022-09-09,Progression,75.2,Regimen A,MD Anderson,Dr. Smith,Alive,33477.16,4,115,7
+1099,Melanoma,Stage IV,2022-10-26,2022-12-03,Progression,70.1,Regimen C,Johns Hopkins,Dr. Adams,Deceased,37783.59,10,71,5
+1100,Breast Cancer,Stage II,2022-09-28,2023-05-17,Progression,65.3,Regimen D,Sloan Kettering,Dr. Brown,Alive,30470.11,10,39,6
+1101,Lung Cancer,Stage III,2022-05-26,2022-07-13,Remission,41.7,Regimen B,Johns Hopkins,Dr. Brown,Alive,35649.42,3,64,4
+1102,Colorectal Cancer,Stage III,2023-03-26,2023-05-26,Deceased,61.6,Regimen C,Cleveland Clinic,Dr. Johnson,Deceased,33832.42,10,25,9
+1103,Colorectal Cancer,Stage IV,2023-03-25,2023-05-14,Remission,63.1,Regimen D,Johns Hopkins,Dr. Brown,Alive,43758.37,7,21,4
+1104,Breast Cancer,Stage II,2023-11-22,2024-07-23,Remission,54,Regimen C,Mayo Clinic,Dr. Smith,Alive,36908.16,4,26,1
+1105,Lung Cancer,Stage IV,2023-06-16,2023-12-29,Deceased,66.8,Regimen C,MD Anderson,Dr. Brown,Deceased,37532.02,4,25,7
+1106,Leukemia,Stage IV,2022-04-04,2022-09-01,Stable,78.1,Regimen D,Johns Hopkins,Dr. Johnson,Alive,31910.92,8,21,7
+1107,Pancreatic Cancer,Stage II,2022-12-04,2023-04-18,Deceased,100,Regimen C,Cleveland Clinic,Dr. Chen,Deceased,31342.95,11,17,4
+1108,Pancreatic Cancer,Stage I,2023-04-11,2023-06-02,Stable,73.5,Regimen C,Johns Hopkins,Dr. Smith,Deceased,31755.81,3,93,3
+1109,Leukemia,Stage I,2023-11-05,2024-07-14,Deceased,75.2,Regimen D,Sloan Kettering,Dr. Lee,Deceased,37958.39,8,12,8
+1110,Colorectal Cancer,Stage III,2023-09-30,2024-05-10,Deceased,68.5,Regimen D,Sloan Kettering,Dr. Lee,Deceased,31842.62,11,25,5
+1111,Prostate Cancer,Stage II,2022-10-22,2023-03-13,Deceased,31.6,Regimen A,Sloan Kettering,Dr. Adams,Deceased,37173.31,10,39,7
+1112,Colorectal Cancer,Stage II,2023-12-28,2024-03-07,Stable,69.5,Regimen A,Mayo Clinic,Dr. Patel,Alive,50565.51,8,118,4
+1113,Pancreatic Cancer,Stage I,2023-04-18,2023-06-17,Progression,71.2,Regimen D,Johns Hopkins,Dr. Brown,Alive,41533.44,5,32,4
+1114,Leukemia,Stage IV,2023-04-29,2023-07-30,Deceased,100,Regimen B,Cleveland Clinic,Dr. Lee,Deceased,32554.82,10,101,8
+1115,Colorectal Cancer,Stage II,2022-03-13,2022-06-21,Deceased,66.2,Regimen C,Mayo Clinic,Dr. Johnson,Deceased,44009.1,11,113,8
+1116,Pancreatic Cancer,Stage I,2022-10-17,2023-05-20,Stable,76,Regimen D,MD Anderson,Dr. Patel,Alive,31939.43,3,14,2
+1117,Prostate Cancer,Stage III,2023-07-20,2024-03-01,Deceased,69.3,Regimen D,Johns Hopkins,Dr. Chen,Deceased,19714.07,11,93,2
+1118,Lung Cancer,Stage II,2023-08-09,2023-12-15,Progression,46.6,Regimen D,Sloan Kettering,Dr. Johnson,Alive,27439.35,8,113,3
+1119,Melanoma,Stage IV,2023-01-31,2023-08-18,Progression,92.9,Regimen D,Sloan Kettering,Dr. Lee,Alive,20969.06,8,117,3
+1120,Colorectal Cancer,Stage III,2022-04-13,2022-12-22,Deceased,85,Regimen A,Mayo Clinic,Dr. Patel,Deceased,32363.65,6,74,1
+1121,Breast Cancer,Stage II,2023-02-24,2023-11-03,Progression,85.8,Regimen A,Cleveland Clinic,Dr. Chen,Deceased,35138.14,3,39,3
+1122,Prostate Cancer,Stage IV,2023-10-28,2023-12-17,Stable,51.8,Regimen D,Johns Hopkins,Dr. Adams,Alive,47573.28,10,30,6
+1123,Pancreatic Cancer,Stage IV,2023-07-09,2023-08-17,Remission,98.1,Regimen B,Johns Hopkins,Dr. Lee,Alive,37451.96,4,93,8
+1124,Leukemia,Stage I,2023-10-11,2024-05-08,Remission,42,Regimen D,MD Anderson,Dr. Adams,Alive,33356.75,3,79,6
+1125,Breast Cancer,Stage I,2022-11-29,2023-07-20,Remission,81.7,Regimen C,Johns Hopkins,Dr. Johnson,Alive,41220.54,4,31,5
+1126,Lung Cancer,Stage IV,2023-08-03,2024-02-23,Progression,100,Regimen B,MD Anderson,Dr. Smith,Alive,18416.49,3,91,4
+1127,Leukemia,Stage II,2023-05-25,2024-02-12,Progression,50.2,Regimen B,Cleveland Clinic,Dr. Adams,Alive,36767.11,3,81,3
+1128,Prostate Cancer,Stage I,2023-04-22,2024-01-07,Stable,58.7,Regimen B,Sloan Kettering,Dr. Patel,Deceased,40781.49,11,112,4
+1129,Colorectal Cancer,Stage III,2023-10-17,2024-03-03,Stable,72,Regimen D,Johns Hopkins,Dr. Lee,Deceased,23910.6,3,41,7
+1130,Pancreatic Cancer,Stage IV,2022-04-20,2022-07-19,Deceased,59.9,Regimen C,Mayo Clinic,Dr. Johnson,Deceased,43578.16,6,42,1
+1131,Melanoma,Stage III,2022-01-23,2022-09-22,Deceased,39,Regimen C,Sloan Kettering,Dr. Brown,Deceased,37538.72,8,25,7
+1132,Pancreatic Cancer,Stage I,2023-09-13,2024-04-20,Deceased,71.4,Regimen C,MD Anderson,Dr. Brown,Deceased,31885.34,9,85,1
+1133,Pancreatic Cancer,Stage III,2022-08-13,2023-02-21,Progression,48.8,Regimen C,MD Anderson,Dr. Adams,Alive,39745.86,4,47,2
+1134,Melanoma,Stage I,2022-11-13,2023-07-02,Deceased,79.5,Regimen A,Mayo Clinic,Dr. Johnson,Deceased,52030.2,8,107,4
+1135,Melanoma,Stage II,2022-04-03,2022-12-21,Stable,51.6,Regimen C,Cleveland Clinic,Dr. Lee,Alive,36364,9,23,1
+1136,Pancreatic Cancer,Stage III,2023-06-28,2023-12-03,Stable,100,Regimen B,Johns Hopkins,Dr. Chen,Deceased,36861.65,4,45,9
+1137,Pancreatic Cancer,Stage III,2022-12-13,2023-08-05,Remission,54.3,Regimen D,Sloan Kettering,Dr. Lee,Alive,31554.79,4,106,6
+1138,Lung Cancer,Stage IV,2023-07-25,2023-11-25,Remission,63.6,Regimen D,Sloan Kettering,Dr. Johnson,Alive,28626.17,9,32,1
+1139,Leukemia,Stage III,2023-11-20,2024-06-28,Stable,86.3,Regimen D,Johns Hopkins,Dr. Smith,Alive,41227.52,3,118,1
+1140,Leukemia,Stage I,2023-09-27,2024-06-09,Stable,45.4,Regimen B,Sloan Kettering,Dr. Adams,Alive,28579.37,10,75,6
+1141,Melanoma,Stage III,2023-10-27,2024-03-09,Remission,74.5,Regimen B,Sloan Kettering,Dr. Smith,Alive,35536.75,5,114,4
+1142,Leukemia,Stage I,2022-04-10,2022-07-09,Progression,96.1,Regimen D,Cleveland Clinic,Dr. Johnson,Alive,31417.57,8,94,4
+1143,Melanoma,Stage IV,2023-08-25,2024-04-01,Progression,37.9,Regimen D,Sloan Kettering,Dr. Chen,Alive,38592.35,11,11,6
+1144,Leukemia,Stage III,2022-02-03,2022-08-28,Stable,73.7,Regimen B,Cleveland Clinic,Dr. Patel,Deceased,37502.47,8,100,7
+1145,Pancreatic Cancer,Stage III,2022-04-12,2022-11-03,Stable,75.2,Regimen C,Sloan Kettering,Dr. Patel,Alive,42781.55,11,82,9
+1146,Breast Cancer,Stage IV,2022-04-04,2022-10-20,Progression,85.6,Regimen A,Sloan Kettering,Dr. Chen,Alive,31174.88,9,74,5
+1147,Lung Cancer,Stage II,2022-03-12,2022-11-09,Progression,45.3,Regimen B,MD Anderson,Dr. Johnson,Alive,32975.94,11,84,9
+1148,Pancreatic Cancer,Stage I,2022-10-11,2023-06-17,Progression,43.6,Regimen B,Mayo Clinic,Dr. Johnson,Alive,27659.27,4,76,4
+1149,Breast Cancer,Stage I,2022-05-15,2022-06-17,Stable,80.4,Regimen B,Mayo Clinic,Dr. Johnson,Alive,31667.8,10,61,2
+1150,Prostate Cancer,Stage I,2022-05-10,2022-12-15,Deceased,75.9,Regimen A,Sloan Kettering,Dr. Patel,Deceased,37829.75,10,71,3
+1151,Leukemia,Stage III,2023-06-10,2023-12-08,Remission,75,Regimen D,Mayo Clinic,Dr. Lee,Deceased,40677.41,4,32,1
+1152,Breast Cancer,Stage III,2023-04-15,2023-10-26,Remission,76.9,Regimen A,Cleveland Clinic,Dr. Chen,Alive,28083.76,6,35,6
+1153,Melanoma,Stage I,2023-05-18,2023-12-16,Deceased,56.4,Regimen A,Sloan Kettering,Dr. Johnson,Deceased,41522.04,9,77,6
+1154,Colorectal Cancer,Stage II,2022-03-09,2022-05-10,Stable,74.6,Regimen C,Cleveland Clinic,Dr. Brown,Alive,45167.28,6,91,1
+1155,Leukemia,Stage IV,2022-04-12,2022-12-01,Remission,75.9,Regimen B,Cleveland Clinic,Dr. Patel,Deceased,38100.76,6,64,3
+1156,Leukemia,Stage III,2023-04-10,2023-08-20,Deceased,55.7,Regimen A,Johns Hopkins,Dr. Patel,Deceased,49075.97,8,15,5
+1157,Prostate Cancer,Stage III,2023-01-19,2023-03-29,Deceased,100,Regimen A,Sloan Kettering,Dr. Chen,Deceased,29196.58,8,44,3
+1158,Breast Cancer,Stage I,2023-03-19,2023-05-12,Stable,79.5,Regimen B,Mayo Clinic,Dr. Smith,Alive,25665.09,5,31,3
+1159,Colorectal Cancer,Stage III,2023-11-18,2024-01-18,Deceased,46.2,Regimen C,Cleveland Clinic,Dr. Chen,Deceased,21659.6,11,52,3
+1160,Melanoma,Stage I,2022-10-22,2023-04-23,Stable,83.1,Regimen C,Sloan Kettering,Dr. Brown,Alive,46220.33,4,24,5
+1161,Lung Cancer,Stage IV,2022-08-18,2023-04-21,Remission,50.5,Regimen C,Mayo Clinic,Dr. Johnson,Alive,39907.74,8,95,5
+1162,Prostate Cancer,Stage II,2023-03-16,2023-11-17,Remission,85.7,Regimen C,Sloan Kettering,Dr. Lee,Alive,34583.11,9,69,4
+1163,Pancreatic Cancer,Stage III,2022-12-14,2023-04-12,Remission,93.2,Regimen B,MD Anderson,Dr. Brown,Alive,37099.76,11,110,1
+1164,Breast Cancer,Stage II,2023-10-11,2023-11-17,Remission,53.6,Regimen B,Cleveland Clinic,Dr. Patel,Alive,26558.83,5,115,5
+1165,Lung Cancer,Stage III,2022-11-16,2023-06-18,Stable,89.3,Regimen A,Sloan Kettering,Dr. Lee,Alive,53343.14,5,21,5
+1166,Colorectal Cancer,Stage I,2023-11-22,2024-01-11,Stable,78.3,Regimen D,Cleveland Clinic,Dr. Patel,Alive,35969.16,9,58,4
+1167,Leukemia,Stage III,2022-08-09,2023-03-20,Remission,86.4,Regimen C,Cleveland Clinic,Dr. Smith,Alive,35820.46,6,51,6
+1168,Melanoma,Stage IV,2023-06-24,2024-01-10,Stable,100,Regimen A,MD Anderson,Dr. Patel,Deceased,40443.25,10,47,4
+1169,Breast Cancer,Stage I,2022-07-29,2022-11-13,Progression,65.1,Regimen B,Johns Hopkins,Dr. Johnson,Alive,38607.57,9,91,7
+1170,Breast Cancer,Stage IV,2023-03-17,2023-05-30,Progression,54.9,Regimen D,Mayo Clinic,Dr. Adams,Alive,36679.13,7,54,7
+1171,Colorectal Cancer,Stage III,2022-03-15,2022-07-24,Remission,52.2,Regimen D,Sloan Kettering,Dr. Patel,Deceased,29071.44,9,44,2
+1172,Pancreatic Cancer,Stage III,2023-08-13,2023-12-30,Deceased,53.7,Regimen D,Johns Hopkins,Dr. Smith,Deceased,38536.01,5,39,3
+1173,Leukemia,Stage I,2022-11-29,2023-02-10,Deceased,68.5,Regimen C,Sloan Kettering,Dr. Patel,Deceased,49115.18,4,97,1
+1174,Pancreatic Cancer,Stage I,2022-09-07,2023-01-26,Deceased,76.8,Regimen A,Cleveland Clinic,Dr. Chen,Deceased,45090.65,8,115,8
+1175,Prostate Cancer,Stage III,2022-08-15,2022-12-08,Progression,75.5,Regimen A,Mayo Clinic,Dr. Adams,Alive,46948.9,4,39,9
+1176,Colorectal Cancer,Stage II,2022-12-24,2023-04-22,Progression,86.5,Regimen B,Sloan Kettering,Dr. Lee,Alive,31165.88,5,87,4
+1177,Lung Cancer,Stage II,2023-11-03,2023-12-22,Progression,70.3,Regimen D,Cleveland Clinic,Dr. Chen,Alive,27577.96,8,15,6
+1178,Colorectal Cancer,Stage IV,2023-11-29,2024-08-21,Stable,99.1,Regimen C,MD Anderson,Dr. Patel,Alive,34056.6,7,76,9
+1179,Leukemia,Stage III,2022-10-09,2023-04-08,Remission,64.7,Regimen C,Mayo Clinic,Dr. Smith,Alive,35417.94,10,89,6
+1180,Leukemia,Stage I,2022-02-28,2022-07-02,Stable,100,Regimen A,Sloan Kettering,Dr. Brown,Alive,43206.44,11,16,9
+1181,Leukemia,Stage IV,2023-08-18,2024-02-05,Remission,82.5,Regimen D,Mayo Clinic,Dr. Adams,Alive,22306.52,5,61,4
+1182,Colorectal Cancer,Stage IV,2023-05-29,2023-08-05,Remission,52.9,Regimen D,Sloan Kettering,Dr. Chen,Deceased,46471.63,5,23,8
+1183,Prostate Cancer,Stage I,2023-06-01,2023-12-13,Progression,48.6,Regimen A,MD Anderson,Dr. Adams,Alive,33814.94,5,82,9
+1184,Leukemia,Stage II,2023-01-08,2023-05-13,Stable,79.6,Regimen D,Cleveland Clinic,Dr. Chen,Alive,31798.39,8,24,4
+1185,Colorectal Cancer,Stage I,2023-10-09,2024-04-21,Stable,65.5,Regimen A,Johns Hopkins,Dr. Smith,Alive,27409.22,3,30,5
+1186,Leukemia,Stage III,2022-09-16,2023-04-19,Progression,84.3,Regimen C,Sloan Kettering,Dr. Brown,Alive,22588.57,9,44,8
+1187,Prostate Cancer,Stage III,2023-11-03,2024-05-29,Deceased,79.5,Regimen B,Mayo Clinic,Dr. Adams,Deceased,41173.78,3,75,6
+1188,Breast Cancer,Stage III,2023-07-27,2023-11-30,Stable,68.5,Regimen B,Mayo Clinic,Dr. Smith,Alive,35549.88,7,100,7
+1189,Leukemia,Stage III,2022-01-19,2022-05-21,Stable,53.1,Regimen B,MD Anderson,Dr. Johnson,Deceased,25325.29,10,11,3
+1190,Leukemia,Stage II,2022-08-20,2022-10-24,Progression,39.7,Regimen A,Johns Hopkins,Dr. Chen,Alive,25286.91,6,44,7
+1191,Colorectal Cancer,Stage I,2023-11-09,2024-03-04,Progression,61.1,Regimen D,MD Anderson,Dr. Lee,Alive,32481.61,7,91,8
+1192,Melanoma,Stage II,2023-03-25,2023-05-05,Deceased,87.1,Regimen C,MD Anderson,Dr. Patel,Deceased,47517.66,6,87,6
+1193,Colorectal Cancer,Stage III,2023-04-05,2023-07-03,Progression,74.3,Regimen C,Cleveland Clinic,Dr. Chen,Alive,33053.06,6,29,9
+1194,Melanoma,Stage IV,2023-04-18,2023-11-30,Stable,45.1,Regimen D,Mayo Clinic,Dr. Brown,Alive,23726.43,10,91,6
+1195,Lung Cancer,Stage II,2023-09-12,2023-11-16,Stable,73.5,Regimen A,Cleveland Clinic,Dr. Chen,Alive,33156.93,4,19,9
+1196,Breast Cancer,Stage I,2022-10-19,2022-12-09,Progression,77.7,Regimen C,Cleveland Clinic,Dr. Brown,Alive,32954.57,3,34,4
+1197,Leukemia,Stage I,2022-08-16,2023-04-12,Deceased,52.3,Regimen C,Sloan Kettering,Dr. Patel,Deceased,14773.35,5,75,8
+1198,Breast Cancer,Stage IV,2023-05-30,2023-10-02,Progression,73.1,Regimen D,Sloan Kettering,Dr. Johnson,Alive,34592.79,11,34,4
+1199,Prostate Cancer,Stage I,2023-10-28,2024-02-20,Progression,71.2,Regimen B,Sloan Kettering,Dr. Johnson,Deceased,33267.99,6,63,2
+1200,Leukemia,Stage II,2023-12-24,2024-05-22,Deceased,47.1,Regimen A,Sloan Kettering,Dr. Smith,Deceased,40221.55,7,42,9
+1201,Prostate Cancer,Stage II,2022-06-03,2022-11-20,Deceased,77.2,Regimen A,Johns Hopkins,Dr. Lee,Deceased,48867.17,4,45,5
+1202,Prostate Cancer,Stage I,2022-02-18,2022-05-20,Deceased,81.2,Regimen D,Sloan Kettering,Dr. Smith,Deceased,43449.24,6,104,4
+1203,Pancreatic Cancer,Stage IV,2023-09-04,2024-02-18,Remission,91.7,Regimen B,MD Anderson,Dr. Johnson,Alive,32983.33,4,23,2
+1204,Colorectal Cancer,Stage III,2022-09-04,2023-02-27,Deceased,91.1,Regimen B,Sloan Kettering,Dr. Brown,Deceased,26701.06,4,74,1
+1205,Prostate Cancer,Stage I,2023-06-23,2023-12-09,Remission,42.4,Regimen D,Cleveland Clinic,Dr. Smith,Alive,54300.2,6,119,7
+1206,Prostate Cancer,Stage III,2022-01-17,2022-05-18,Remission,51.2,Regimen C,MD Anderson,Dr. Adams,Alive,35444.14,8,89,6
+1207,Breast Cancer,Stage III,2022-05-17,2022-06-27,Stable,80.3,Regimen C,MD Anderson,Dr. Chen,Alive,35104.47,9,63,2
+1208,Leukemia,Stage IV,2023-10-09,2023-12-24,Progression,80.3,Regimen A,Cleveland Clinic,Dr. Smith,Alive,34819.06,5,119,8
+1209,Breast Cancer,Stage II,2022-02-12,2022-06-02,Stable,80.3,Regimen D,Mayo Clinic,Dr. Patel,Alive,36485.64,5,61,4
+1210,Pancreatic Cancer,Stage II,2022-10-20,2023-02-18,Remission,100,Regimen C,Johns Hopkins,Dr. Smith,Alive,33917.3,8,12,8
+1211,Leukemia,Stage IV,2023-03-27,2023-12-11,Deceased,81.4,Regimen C,MD Anderson,Dr. Patel,Deceased,30697.53,5,108,7
+1212,Melanoma,Stage IV,2023-01-12,2023-10-05,Stable,92.7,Regimen A,Cleveland Clinic,Dr. Smith,Alive,30898.56,4,50,5
+1213,Pancreatic Cancer,Stage II,2023-07-13,2023-10-26,Stable,89.1,Regimen A,Sloan Kettering,Dr. Johnson,Alive,34754.35,10,15,8
+1214,Prostate Cancer,Stage IV,2023-09-10,2024-04-10,Deceased,83,Regimen B,Cleveland Clinic,Dr. Johnson,Deceased,30924.31,7,34,9
+1215,Leukemia,Stage I,2022-12-28,2023-07-03,Deceased,63.7,Regimen C,Sloan Kettering,Dr. Smith,Deceased,29653.66,3,22,5
+1216,Melanoma,Stage IV,2023-01-08,2023-06-18,Progression,85.2,Regimen A,MD Anderson,Dr. Chen,Alive,35798.23,5,107,5
+1217,Pancreatic Cancer,Stage IV,2022-02-05,2022-04-08,Remission,54.5,Regimen B,Johns Hopkins,Dr. Johnson,Alive,33087.67,10,17,2
+1218,Colorectal Cancer,Stage I,2023-09-12,2023-11-20,Deceased,65.3,Regimen C,Johns Hopkins,Dr. Patel,Deceased,46279.95,6,30,5
+1219,Pancreatic Cancer,Stage I,2023-08-11,2023-10-15,Stable,60.3,Regimen D,Johns Hopkins,Dr. Adams,Alive,15117.73,9,107,3
+1220,Breast Cancer,Stage I,2022-07-10,2022-12-14,Deceased,71.6,Regimen A,Johns Hopkins,Dr. Chen,Deceased,43186.3,4,77,7
+1221,Prostate Cancer,Stage IV,2022-08-08,2023-02-10,Stable,100,Regimen D,MD Anderson,Dr. Smith,Alive,44345.64,9,34,5
+1222,Breast Cancer,Stage IV,2022-06-26,2023-03-13,Deceased,32.7,Regimen A,Johns Hopkins,Dr. Adams,Deceased,19449.57,7,88,8
+1223,Prostate Cancer,Stage I,2023-07-18,2024-01-02,Stable,83.7,Regimen C,MD Anderson,Dr. Adams,Alive,32429.84,7,77,1
+1224,Melanoma,Stage II,2023-01-06,2023-06-15,Progression,37.7,Regimen A,MD Anderson,Dr. Chen,Alive,32214.19,8,54,3
+1225,Pancreatic Cancer,Stage IV,2022-01-27,2022-05-29,Stable,60.6,Regimen D,Mayo Clinic,Dr. Lee,Alive,24443.66,11,69,3
+1226,Breast Cancer,Stage I,2022-11-13,2023-03-24,Deceased,91.8,Regimen D,Cleveland Clinic,Dr. Chen,Deceased,29166.37,8,21,9
+1227,Colorectal Cancer,Stage I,2022-05-09,2022-08-28,Remission,71.3,Regimen D,Cleveland Clinic,Dr. Adams,Alive,26670.68,10,41,5
+1228,Lung Cancer,Stage II,2022-05-13,2022-09-30,Remission,48.4,Regimen A,Mayo Clinic,Dr. Lee,Alive,48142.03,9,105,9
+1229,Lung Cancer,Stage III,2023-12-28,2024-03-24,Stable,55.7,Regimen C,Sloan Kettering,Dr. Johnson,Alive,42017.59,11,101,9
+1230,Colorectal Cancer,Stage III,2022-05-09,2022-11-15,Stable,83.6,Regimen A,Mayo Clinic,Dr. Adams,Alive,44536.66,6,22,1
+1231,Colorectal Cancer,Stage II,2022-06-25,2023-01-09,Stable,55.4,Regimen A,Sloan Kettering,Dr. Smith,Alive,40412.54,4,40,2
+1232,Melanoma,Stage III,2023-10-29,2024-01-20,Deceased,74.3,Regimen A,Cleveland Clinic,Dr. Adams,Deceased,26532.11,9,87,5
+1233,Colorectal Cancer,Stage III,2023-10-20,2024-02-04,Deceased,70.9,Regimen B,Cleveland Clinic,Dr. Johnson,Deceased,31066.1,8,29,4
+1234,Leukemia,Stage I,2023-12-07,2024-01-21,Progression,57,Regimen D,Cleveland Clinic,Dr. Patel,Alive,38670.31,3,27,9
+1235,Prostate Cancer,Stage II,2022-11-17,2023-07-25,Stable,100,Regimen C,Cleveland Clinic,Dr. Lee,Alive,25834.04,11,102,7
+1236,Colorectal Cancer,Stage I,2022-11-23,2023-02-22,Deceased,82.7,Regimen A,Johns Hopkins,Dr. Patel,Deceased,40347.49,11,69,6
+1237,Lung Cancer,Stage II,2022-04-10,2022-05-22,Stable,29.5,Regimen D,Mayo Clinic,Dr. Patel,Alive,33197.56,4,72,7
+1238,Pancreatic Cancer,Stage II,2022-12-02,2023-08-28,Stable,73.7,Regimen B,MD Anderson,Dr. Patel,Deceased,32188.84,5,15,1
+1239,Leukemia,Stage IV,2022-11-12,2023-04-18,Remission,56.8,Regimen A,Cleveland Clinic,Dr. Brown,Alive,40332.2,7,41,1
+1240,Lung Cancer,Stage II,2023-08-21,2023-12-19,Remission,87,Regimen A,Johns Hopkins,Dr. Patel,Alive,38331.97,7,102,8
+1241,Pancreatic Cancer,Stage IV,2022-10-20,2023-04-05,Remission,54.1,Regimen A,Cleveland Clinic,Dr. Lee,Deceased,32292.75,3,52,2
+1242,Melanoma,Stage III,2023-02-17,2023-06-20,Remission,67.7,Regimen D,Sloan Kettering,Dr. Brown,Alive,43694.97,10,11,9
+1243,Prostate Cancer,Stage III,2022-03-17,2022-07-23,Deceased,80.1,Regimen C,Mayo Clinic,Dr. Adams,Deceased,26892.03,10,69,7
+1244,Colorectal Cancer,Stage I,2022-05-12,2022-07-05,Deceased,87.3,Regimen C,Johns Hopkins,Dr. Brown,Deceased,39619.52,6,32,6
+1245,Prostate Cancer,Stage II,2022-07-23,2023-01-23,Deceased,46,Regimen A,Sloan Kettering,Dr. Smith,Deceased,39448.26,9,92,1
+1246,Lung Cancer,Stage III,2023-05-01,2023-10-10,Deceased,63.3,Regimen B,Mayo Clinic,Dr. Brown,Deceased,32678.4,5,40,1
+1247,Lung Cancer,Stage III,2023-09-20,2024-01-09,Progression,60.5,Regimen D,Mayo Clinic,Dr. Adams,Alive,37446,8,14,2
+1248,Colorectal Cancer,Stage III,2023-06-04,2024-02-01,Deceased,56.9,Regimen C,Cleveland Clinic,Dr. Chen,Deceased,25616.65,11,92,6
+1249,Breast Cancer,Stage III,2022-12-06,2023-06-26,Remission,100,Regimen D,Mayo Clinic,Dr. Johnson,Alive,41930.2,3,43,6
+1250,Melanoma,Stage I,2023-09-04,2024-02-02,Stable,78.1,Regimen B,Sloan Kettering,Dr. Brown,Alive,33613.23,7,19,2
+1251,Colorectal Cancer,Stage IV,2022-06-01,2023-01-27,Progression,44.8,Regimen A,Mayo Clinic,Dr. Adams,Alive,31079.58,6,98,1
+1252,Breast Cancer,Stage IV,2022-11-18,2023-04-04,Progression,88.4,Regimen D,MD Anderson,Dr. Patel,Alive,42867.57,10,11,5
+1253,Colorectal Cancer,Stage IV,2022-03-05,2022-10-01,Progression,100,Regimen B,Mayo Clinic,Dr. Johnson,Deceased,29717.42,3,20,5
+1254,Leukemia,Stage IV,2022-11-18,2023-01-31,Deceased,90.6,Regimen C,Mayo Clinic,Dr. Johnson,Deceased,24436.54,11,59,2
+1255,Melanoma,Stage III,2023-09-17,2024-02-17,Progression,39.6,Regimen B,Johns Hopkins,Dr. Brown,Alive,23325.28,8,40,6
+1256,Prostate Cancer,Stage III,2023-12-23,2024-03-15,Deceased,60.3,Regimen C,Cleveland Clinic,Dr. Johnson,Deceased,39545.07,6,65,9
+1257,Colorectal Cancer,Stage III,2022-10-22,2022-12-22,Deceased,95.3,Regimen D,Johns Hopkins,Dr. Chen,Deceased,25396.78,11,88,2
+1258,Pancreatic Cancer,Stage II,2022-10-25,2022-12-04,Stable,55.8,Regimen A,Johns Hopkins,Dr. Patel,Alive,48160.96,7,82,2
+1259,Melanoma,Stage IV,2022-08-08,2022-10-28,Stable,78.9,Regimen C,MD Anderson,Dr. Smith,Alive,19385.53,7,96,3
+1260,Colorectal Cancer,Stage II,2022-09-06,2022-10-18,Progression,85.5,Regimen B,Sloan Kettering,Dr. Smith,Alive,47723.42,7,92,7
+1261,Melanoma,Stage IV,2022-04-13,2022-11-03,Progression,51.5,Regimen A,Mayo Clinic,Dr. Lee,Alive,36582.63,3,18,6
+1262,Leukemia,Stage IV,2023-10-29,2024-01-18,Stable,68.8,Regimen C,Johns Hopkins,Dr. Adams,Alive,34274.65,3,108,8
+1263,Pancreatic Cancer,Stage I,2023-10-30,2024-04-23,Progression,10,Regimen A,MD Anderson,Dr. Patel,Deceased,30913.11,10,30,8
+1264,Lung Cancer,Stage I,2023-02-11,2023-09-30,Deceased,49.5,Regimen B,Johns Hopkins,Dr. Smith,Deceased,37993.52,10,82,6
+1265,Breast Cancer,Stage III,2023-08-05,2024-02-05,Remission,64.9,Regimen C,Johns Hopkins,Dr. Patel,Deceased,34717.74,8,37,3
+1266,Colorectal Cancer,Stage IV,2022-05-18,2023-01-20,Deceased,45,Regimen C,MD Anderson,Dr. Chen,Deceased,43274.76,6,71,3
+1267,Breast Cancer,Stage III,2022-06-16,2023-01-19,Deceased,100,Regimen C,MD Anderson,Dr. Smith,Deceased,35856.71,4,119,1
+1268,Melanoma,Stage III,2022-10-30,2023-04-23,Progression,41.4,Regimen B,Mayo Clinic,Dr. Chen,Alive,36127.26,4,16,7
+1269,Leukemia,Stage IV,2023-06-12,2023-10-03,Remission,61.2,Regimen D,Sloan Kettering,Dr. Lee,Deceased,32272.91,11,89,5
+1270,Leukemia,Stage III,2022-09-12,2022-10-13,Stable,72.6,Regimen D,MD Anderson,Dr. Patel,Alive,34572.91,7,25,4
+1271,Prostate Cancer,Stage III,2023-08-20,2024-03-22,Remission,98.8,Regimen C,Johns Hopkins,Dr. Adams,Alive,37308.51,6,106,4
+1272,Melanoma,Stage I,2023-04-22,2023-08-08,Progression,41.3,Regimen D,Mayo Clinic,Dr. Adams,Alive,22173.74,3,13,4
+1273,Melanoma,Stage I,2023-10-17,2024-07-07,Stable,93.3,Regimen C,Mayo Clinic,Dr. Lee,Alive,24888.61,9,13,6
+1274,Lung Cancer,Stage IV,2022-06-06,2022-10-30,Stable,70.2,Regimen D,Mayo Clinic,Dr. Patel,Alive,40574.48,5,112,8
+1275,Pancreatic Cancer,Stage II,2022-09-11,2023-04-03,Remission,50.4,Regimen D,Mayo Clinic,Dr. Adams,Alive,36281.49,8,49,8
+1276,Colorectal Cancer,Stage I,2022-03-05,2022-11-02,Progression,79.2,Regimen B,MD Anderson,Dr. Johnson,Deceased,33620.12,7,26,5
+1277,Leukemia,Stage I,2023-11-28,2024-02-18,Deceased,74,Regimen A,Mayo Clinic,Dr. Patel,Deceased,35138.25,7,110,6
+1278,Pancreatic Cancer,Stage I,2023-04-10,2023-06-12,Deceased,58,Regimen D,Mayo Clinic,Dr. Smith,Deceased,37606.86,7,112,4
+1279,Colorectal Cancer,Stage IV,2023-11-20,2024-07-13,Stable,71.4,Regimen A,Cleveland Clinic,Dr. Johnson,Alive,30951.8,3,61,9
+1280,Melanoma,Stage II,2023-08-16,2023-10-03,Remission,62.3,Regimen D,Johns Hopkins,Dr. Adams,Alive,29162.71,3,102,8
+1281,Breast Cancer,Stage I,2023-04-29,2023-06-06,Stable,72.3,Regimen D,MD Anderson,Dr. Chen,Alive,36468.84,5,61,1
+1282,Melanoma,Stage IV,2023-01-19,2023-10-04,Deceased,83.2,Regimen D,Cleveland Clinic,Dr. Patel,Deceased,27662.2,6,45,2
+1283,Breast Cancer,Stage II,2023-11-01,2024-07-08,Stable,100,Regimen A,MD Anderson,Dr. Brown,Alive,38061.9,7,47,9
+1284,Lung Cancer,Stage II,2022-01-04,2022-08-15,Remission,45.2,Regimen C,Cleveland Clinic,Dr. Adams,Alive,22230.62,4,112,8
+1285,Leukemia,Stage IV,2022-08-24,2022-11-25,Deceased,100,Regimen C,MD Anderson,Dr. Johnson,Deceased,42718.67,10,59,3
+1286,Lung Cancer,Stage I,2022-02-02,2022-09-27,Deceased,31,Regimen A,MD Anderson,Dr. Lee,Deceased,38544.48,4,72,8
+1287,Breast Cancer,Stage I,2023-09-01,2023-10-09,Deceased,67,Regimen A,MD Anderson,Dr. Adams,Deceased,36920.22,11,110,1
+1288,Breast Cancer,Stage IV,2023-03-26,2023-06-23,Progression,81.8,Regimen A,MD Anderson,Dr. Brown,Deceased,42370.18,4,72,4
+1289,Lung Cancer,Stage III,2023-08-15,2024-02-14,Stable,75.6,Regimen B,Johns Hopkins,Dr. Lee,Deceased,47491.06,11,71,3
+1290,Colorectal Cancer,Stage II,2023-02-28,2023-06-14,Stable,57.5,Regimen A,Mayo Clinic,Dr. Brown,Deceased,42607.78,9,108,6
+1291,Lung Cancer,Stage IV,2023-07-24,2023-12-27,Remission,65.8,Regimen C,Cleveland Clinic,Dr. Chen,Alive,21193.44,10,16,7
+1292,Melanoma,Stage IV,2023-02-23,2023-05-02,Stable,60.1,Regimen D,MD Anderson,Dr. Chen,Alive,25403.17,4,36,4
+1293,Lung Cancer,Stage II,2022-11-04,2023-07-11,Progression,58.2,Regimen D,Sloan Kettering,Dr. Brown,Alive,30313.86,9,101,7
+1294,Leukemia,Stage II,2023-02-02,2023-05-05,Stable,87,Regimen B,Johns Hopkins,Dr. Adams,Alive,35195.68,8,95,9
+1295,Leukemia,Stage III,2022-04-05,2022-09-19,Progression,77.1,Regimen A,Johns Hopkins,Dr. Patel,Alive,38882.44,6,23,2
+1296,Colorectal Cancer,Stage I,2022-03-16,2022-06-02,Progression,56.1,Regimen D,MD Anderson,Dr. Chen,Deceased,29556.92,9,80,3
+1297,Prostate Cancer,Stage I,2022-08-05,2023-05-01,Progression,88,Regimen A,Cleveland Clinic,Dr. Lee,Alive,36400.75,6,110,5
+1298,Melanoma,Stage II,2023-02-11,2023-11-02,Progression,76.1,Regimen C,Johns Hopkins,Dr. Patel,Alive,29334.63,4,95,3
+1299,Melanoma,Stage III,2022-11-12,2023-02-16,Stable,86.3,Regimen D,Cleveland Clinic,Dr. Smith,Alive,30413.62,9,14,8
+1300,Melanoma,Stage IV,2022-11-24,2023-08-15,Progression,82.6,Regimen C,Johns Hopkins,Dr. Patel,Alive,24450.04,10,64,8
+1301,Pancreatic Cancer,Stage II,2022-05-30,2022-07-03,Stable,53.4,Regimen D,Johns Hopkins,Dr. Lee,Alive,28075.75,4,11,8
+1302,Lung Cancer,Stage IV,2023-08-07,2024-04-06,Progression,58.8,Regimen D,Mayo Clinic,Dr. Adams,Deceased,24862.37,7,71,9
+1303,Prostate Cancer,Stage III,2023-05-16,2023-12-17,Deceased,84.9,Regimen D,MD Anderson,Dr. Adams,Deceased,27680.95,3,100,4
+1304,Pancreatic Cancer,Stage III,2022-06-23,2022-08-27,Deceased,82.2,Regimen B,Mayo Clinic,Dr. Adams,Deceased,42902.31,9,30,5
+1305,Breast Cancer,Stage I,2022-03-18,2022-11-12,Remission,69.6,Regimen A,Cleveland Clinic,Dr. Lee,Alive,27879.51,10,111,5
+1306,Lung Cancer,Stage I,2023-12-26,2024-03-03,Remission,72.3,Regimen B,Mayo Clinic,Dr. Patel,Alive,54742.87,8,88,8
+1307,Colorectal Cancer,Stage IV,2023-11-07,2024-04-09,Remission,95.6,Regimen A,Mayo Clinic,Dr. Brown,Alive,38699.88,7,30,7
+1308,Breast Cancer,Stage III,2023-07-03,2023-10-14,Remission,58.2,Regimen D,MD Anderson,Dr. Smith,Deceased,36386.27,8,19,9
+1309,Colorectal Cancer,Stage II,2022-09-04,2022-11-22,Stable,80.9,Regimen C,Johns Hopkins,Dr. Chen,Alive,28562.32,4,96,8
+1310,Prostate Cancer,Stage IV,2023-04-16,2023-10-07,Progression,66,Regimen B,Johns Hopkins,Dr. Adams,Alive,40252.32,3,67,2
+1311,Breast Cancer,Stage I,2022-04-06,2022-08-17,Deceased,65.6,Regimen D,Mayo Clinic,Dr. Patel,Deceased,30682.72,9,48,4
+1312,Breast Cancer,Stage I,2023-12-21,2024-03-03,Remission,92,Regimen D,Cleveland Clinic,Dr. Adams,Alive,35915.07,9,14,6
+1313,Colorectal Cancer,Stage I,2023-06-25,2024-03-16,Remission,86.5,Regimen B,MD Anderson,Dr. Chen,Alive,54200.63,4,74,2
+1314,Colorectal Cancer,Stage IV,2022-10-05,2022-11-15,Remission,86.3,Regimen C,Mayo Clinic,Dr. Brown,Alive,34279.55,4,22,7
+1315,Lung Cancer,Stage III,2022-01-17,2022-04-10,Progression,96.1,Regimen D,Sloan Kettering,Dr. Johnson,Alive,43619.55,3,94,3
+1316,Lung Cancer,Stage IV,2023-11-25,2024-08-10,Stable,70.4,Regimen D,MD Anderson,Dr. Chen,Deceased,29726.18,10,99,3
+1317,Melanoma,Stage I,2023-05-28,2024-01-03,Stable,83.6,Regimen A,Sloan Kettering,Dr. Patel,Alive,34737.59,10,118,2
+1318,Breast Cancer,Stage III,2023-09-12,2024-04-25,Deceased,63.8,Regimen C,Sloan Kettering,Dr. Adams,Deceased,48281,3,94,8
+1319,Prostate Cancer,Stage IV,2023-05-18,2023-08-14,Stable,76.5,Regimen D,Cleveland Clinic,Dr. Lee,Alive,30297.75,10,62,6
+1320,Melanoma,Stage IV,2022-03-29,2022-11-11,Stable,67.4,Regimen B,Sloan Kettering,Dr. Smith,Alive,48593.36,11,91,1
+1321,Leukemia,Stage II,2023-02-03,2023-05-25,Stable,71.9,Regimen A,Sloan Kettering,Dr. Smith,Deceased,40308.14,6,110,1
+1322,Leukemia,Stage III,2022-10-04,2022-11-29,Progression,81.9,Regimen A,MD Anderson,Dr. Patel,Alive,30781.5,3,54,7
+1323,Colorectal Cancer,Stage IV,2022-04-16,2022-05-22,Remission,53.6,Regimen C,Mayo Clinic,Dr. Smith,Alive,39743.06,3,41,8
+1324,Pancreatic Cancer,Stage III,2023-01-30,2023-03-04,Stable,100,Regimen D,Cleveland Clinic,Dr. Chen,Alive,42294.16,5,45,5
+1325,Colorectal Cancer,Stage II,2023-08-09,2024-01-19,Progression,49.9,Regimen D,MD Anderson,Dr. Lee,Alive,39663.57,7,90,5
+1326,Prostate Cancer,Stage IV,2022-05-30,2022-07-15,Progression,45.7,Regimen D,Johns Hopkins,Dr. Patel,Alive,23223.31,7,108,4
+1327,Pancreatic Cancer,Stage I,2023-01-05,2023-04-09,Progression,93.2,Regimen D,Mayo Clinic,Dr. Brown,Alive,29546.47,11,69,6
+1328,Breast Cancer,Stage II,2022-11-08,2022-12-09,Deceased,85.8,Regimen C,Mayo Clinic,Dr. Patel,Deceased,33143.61,4,20,6
+1329,Pancreatic Cancer,Stage III,2023-03-27,2023-07-20,Deceased,82.5,Regimen B,Johns Hopkins,Dr. Johnson,Deceased,34441.75,4,72,3
+1330,Colorectal Cancer,Stage II,2023-05-06,2023-08-24,Progression,82.6,Regimen D,Johns Hopkins,Dr. Johnson,Alive,39655.04,8,30,9
+1331,Melanoma,Stage IV,2023-08-13,2024-03-30,Progression,69.8,Regimen C,Cleveland Clinic,Dr. Johnson,Alive,36332.76,11,61,7
+1332,Leukemia,Stage III,2022-04-27,2023-01-20,Progression,52.1,Regimen B,Mayo Clinic,Dr. Smith,Deceased,24984.92,3,64,1
+1333,Leukemia,Stage II,2023-03-25,2023-11-14,Stable,71.5,Regimen A,Cleveland Clinic,Dr. Adams,Alive,37851.48,11,35,7
+1334,Melanoma,Stage III,2022-09-05,2022-12-08,Progression,56.5,Regimen D,Cleveland Clinic,Dr. Smith,Alive,39579.39,11,77,5
+1335,Colorectal Cancer,Stage IV,2023-08-20,2023-12-30,Deceased,89.5,Regimen A,Johns Hopkins,Dr. Adams,Deceased,39198.43,11,43,5
+1336,Pancreatic Cancer,Stage I,2022-04-22,2022-12-04,Progression,67.1,Regimen C,MD Anderson,Dr. Adams,Alive,43105.86,7,61,2
+1337,Colorectal Cancer,Stage IV,2022-12-06,2023-07-27,Deceased,53.5,Regimen A,Sloan Kettering,Dr. Smith,Deceased,41254.42,11,91,4
+1338,Prostate Cancer,Stage II,2023-06-07,2024-01-14,Progression,63.6,Regimen D,Johns Hopkins,Dr. Patel,Alive,38443.85,6,113,6
+1339,Melanoma,Stage II,2022-12-20,2023-01-25,Deceased,78.3,Regimen A,Johns Hopkins,Dr. Patel,Deceased,34473.76,4,108,7
+1340,Breast Cancer,Stage I,2022-05-26,2022-09-22,Stable,58.7,Regimen C,Cleveland Clinic,Dr. Chen,Alive,22542.79,8,114,5
+1341,Leukemia,Stage III,2023-05-03,2023-06-26,Deceased,53.6,Regimen D,Johns Hopkins,Dr. Smith,Deceased,38222.14,6,102,9
+1342,Prostate Cancer,Stage I,2023-12-29,2024-02-26,Remission,74.9,Regimen C,Sloan Kettering,Dr. Adams,Alive,36557.66,8,61,3
+1343,Melanoma,Stage II,2023-06-13,2023-08-26,Progression,74.9,Regimen C,Mayo Clinic,Dr. Patel,Deceased,37036.84,5,38,1
+1344,Lung Cancer,Stage IV,2023-10-07,2023-12-23,Progression,59.9,Regimen D,Cleveland Clinic,Dr. Smith,Alive,25424.39,8,47,4
+1345,Lung Cancer,Stage IV,2023-08-30,2024-01-16,Deceased,60.6,Regimen A,MD Anderson,Dr. Lee,Deceased,26892.08,4,51,9
+1346,Prostate Cancer,Stage I,2023-08-15,2023-10-10,Progression,74.6,Regimen C,Johns Hopkins,Dr. Lee,Alive,42898.65,4,30,4
+1347,Prostate Cancer,Stage IV,2023-06-25,2024-01-04,Stable,41,Regimen D,Mayo Clinic,Dr. Patel,Alive,34703.34,11,51,2
+1348,Prostate Cancer,Stage III,2023-04-14,2023-10-19,Progression,41.9,Regimen C,Mayo Clinic,Dr. Brown,Alive,40111.26,9,22,5
+1349,Lung Cancer,Stage III,2022-05-01,2022-07-31,Stable,55.6,Regimen A,MD Anderson,Dr. Johnson,Alive,35212.39,5,114,3
+1350,Colorectal Cancer,Stage IV,2023-03-05,2023-09-03,Progression,65.7,Regimen D,Cleveland Clinic,Dr. Lee,Alive,35223.17,3,73,9
+1351,Colorectal Cancer,Stage II,2023-07-23,2023-10-03,Deceased,76.2,Regimen C,MD Anderson,Dr. Lee,Deceased,42037.13,10,26,4
+1352,Prostate Cancer,Stage IV,2023-09-27,2023-11-09,Stable,99.5,Regimen A,Cleveland Clinic,Dr. Lee,Alive,31129.66,8,18,6
+1353,Leukemia,Stage IV,2023-02-23,2023-09-16,Deceased,87.2,Regimen D,Cleveland Clinic,Dr. Patel,Deceased,35720.91,9,50,2
+1354,Lung Cancer,Stage I,2023-08-02,2023-09-08,Progression,66.8,Regimen C,Sloan Kettering,Dr. Johnson,Alive,31532.94,11,10,6
+1355,Prostate Cancer,Stage II,2023-04-14,2023-10-05,Deceased,69.6,Regimen A,Mayo Clinic,Dr. Smith,Deceased,31741.28,7,11,3
+1356,Prostate Cancer,Stage III,2023-07-10,2024-03-06,Remission,49.9,Regimen D,Mayo Clinic,Dr. Lee,Deceased,32681.21,3,69,9
+1357,Breast Cancer,Stage II,2022-11-01,2023-07-12,Remission,69.6,Regimen D,Johns Hopkins,Dr. Johnson,Deceased,36666,9,57,2
+1358,Breast Cancer,Stage IV,2022-05-01,2022-12-15,Progression,64.2,Regimen B,Mayo Clinic,Dr. Adams,Alive,31409.39,7,38,9
+1359,Melanoma,Stage IV,2022-06-19,2022-12-23,Progression,76.5,Regimen B,MD Anderson,Dr. Chen,Alive,44418.17,5,106,5
+1360,Prostate Cancer,Stage III,2023-09-04,2024-02-18,Progression,53.5,Regimen C,Johns Hopkins,Dr. Johnson,Alive,28290.45,11,19,8
+1361,Pancreatic Cancer,Stage I,2022-05-19,2022-12-27,Deceased,80.4,Regimen A,Johns Hopkins,Dr. Chen,Deceased,33598.46,3,67,2
+1362,Melanoma,Stage II,2023-12-20,2024-08-27,Progression,100,Regimen B,MD Anderson,Dr. Adams,Alive,31702.02,3,69,6
+1363,Lung Cancer,Stage IV,2023-05-17,2023-07-22,Stable,67.8,Regimen D,Cleveland Clinic,Dr. Patel,Alive,45852.33,3,113,3
+1364,Pancreatic Cancer,Stage I,2023-02-17,2023-07-28,Stable,78,Regimen C,Cleveland Clinic,Dr. Patel,Alive,36474.16,5,30,5
+1365,Breast Cancer,Stage I,2023-04-15,2023-10-24,Stable,83.8,Regimen A,Mayo Clinic,Dr. Patel,Alive,42738.83,8,37,8
+1366,Leukemia,Stage II,2023-05-22,2023-08-28,Stable,62,Regimen C,Johns Hopkins,Dr. Brown,Alive,23858.3,5,84,1
+1367,Colorectal Cancer,Stage IV,2022-12-18,2023-09-02,Remission,74.5,Regimen A,Sloan Kettering,Dr. Adams,Alive,37002.88,10,43,5
+1368,Leukemia,Stage I,2022-05-08,2023-01-30,Progression,70.3,Regimen D,Cleveland Clinic,Dr. Smith,Deceased,41672.23,4,17,3
+1369,Leukemia,Stage II,2023-12-07,2024-08-25,Progression,72,Regimen C,MD Anderson,Dr. Chen,Deceased,35617.13,11,68,4
+1370,Prostate Cancer,Stage I,2023-11-02,2024-03-03,Stable,54.5,Regimen A,Johns Hopkins,Dr. Adams,Deceased,42991.1,5,95,2
+1371,Lung Cancer,Stage I,2023-02-10,2023-08-19,Stable,70.5,Regimen B,Cleveland Clinic,Dr. Adams,Alive,31120.34,7,81,9
+1372,Breast Cancer,Stage I,2022-08-07,2023-01-06,Remission,80,Regimen B,Mayo Clinic,Dr. Lee,Alive,45570.11,10,58,3
+1373,Leukemia,Stage I,2022-01-09,2022-08-05,Stable,99,Regimen A,Cleveland Clinic,Dr. Adams,Alive,52241.74,4,88,2
+1374,Breast Cancer,Stage II,2023-01-28,2023-03-21,Remission,89.2,Regimen A,Johns Hopkins,Dr. Johnson,Deceased,32278.71,8,26,9
+1375,Lung Cancer,Stage IV,2022-05-17,2022-11-27,Progression,100,Regimen A,Mayo Clinic,Dr. Brown,Alive,31658.73,7,69,7
+1376,Melanoma,Stage II,2023-03-27,2023-07-24,Progression,54.7,Regimen B,Cleveland Clinic,Dr. Brown,Alive,45900.38,11,96,6
+1377,Pancreatic Cancer,Stage II,2022-03-30,2022-12-14,Remission,87.4,Regimen B,Sloan Kettering,Dr. Brown,Alive,46846.79,7,97,1
+1378,Prostate Cancer,Stage IV,2022-11-19,2023-07-09,Progression,73.7,Regimen B,Johns Hopkins,Dr. Adams,Alive,31078.55,4,54,5
+1379,Colorectal Cancer,Stage III,2023-12-09,2024-01-14,Stable,100,Regimen B,Mayo Clinic,Dr. Brown,Alive,31848.6,7,92,3
+1380,Melanoma,Stage IV,2022-10-30,2023-05-13,Remission,53.8,Regimen B,Cleveland Clinic,Dr. Patel,Alive,32886.62,6,78,1
+1381,Leukemia,Stage I,2023-06-25,2024-03-08,Remission,53.2,Regimen C,Johns Hopkins,Dr. Lee,Alive,24916.62,9,41,4
+1382,Pancreatic Cancer,Stage IV,2023-01-10,2023-06-28,Progression,58,Regimen D,Sloan Kettering,Dr. Smith,Alive,28110.11,8,53,2
+1383,Breast Cancer,Stage III,2022-08-09,2022-09-18,Remission,27.5,Regimen D,Mayo Clinic,Dr. Johnson,Alive,27468.94,4,74,2
+1384,Colorectal Cancer,Stage IV,2023-03-10,2023-10-05,Deceased,59.5,Regimen A,Mayo Clinic,Dr. Brown,Deceased,29241.52,7,96,3
+1385,Colorectal Cancer,Stage II,2022-10-12,2022-12-02,Stable,54.8,Regimen A,Mayo Clinic,Dr. Lee,Deceased,34739.86,9,110,8
+1386,Lung Cancer,Stage III,2023-02-05,2023-08-04,Remission,73,Regimen C,Cleveland Clinic,Dr. Adams,Deceased,36756.61,9,17,8
+1387,Lung Cancer,Stage I,2022-09-08,2022-10-30,Deceased,76.8,Regimen A,Cleveland Clinic,Dr. Brown,Deceased,46628.75,7,86,7
+1388,Colorectal Cancer,Stage I,2022-11-13,2023-06-01,Progression,100,Regimen A,Sloan Kettering,Dr. Adams,Alive,27512.34,11,81,6
+1389,Breast Cancer,Stage II,2023-05-24,2023-09-19,Stable,89,Regimen B,Johns Hopkins,Dr. Lee,Alive,42382.42,6,96,9
+1390,Pancreatic Cancer,Stage III,2022-05-01,2022-12-14,Remission,58.5,Regimen C,Cleveland Clinic,Dr. Johnson,Alive,33395.08,5,52,4
+1391,Prostate Cancer,Stage I,2023-05-24,2023-10-17,Stable,52,Regimen A,Cleveland Clinic,Dr. Chen,Alive,34629.02,6,10,1
+1392,Prostate Cancer,Stage II,2022-09-19,2023-05-04,Remission,79.8,Regimen A,MD Anderson,Dr. Adams,Alive,40061.15,7,118,8
+1393,Breast Cancer,Stage I,2022-09-08,2022-10-19,Deceased,43.6,Regimen C,Cleveland Clinic,Dr. Lee,Deceased,26579.58,8,60,7
+1394,Lung Cancer,Stage I,2023-07-21,2024-03-12,Deceased,100,Regimen B,Johns Hopkins,Dr. Lee,Deceased,37868.07,5,33,7
+1395,Leukemia,Stage III,2022-10-05,2023-06-03,Remission,93.6,Regimen C,Sloan Kettering,Dr. Brown,Alive,36248.39,4,108,3
+1396,Breast Cancer,Stage II,2022-08-17,2023-04-09,Remission,60.6,Regimen D,Sloan Kettering,Dr. Patel,Deceased,38693.38,6,33,4
+1397,Pancreatic Cancer,Stage III,2022-12-02,2023-01-23,Deceased,35.7,Regimen A,Johns Hopkins,Dr. Lee,Deceased,37168.76,7,26,9
+1398,Prostate Cancer,Stage III,2023-09-30,2023-12-31,Deceased,97.1,Regimen C,Mayo Clinic,Dr. Patel,Deceased,53414.75,6,14,6
+1399,Pancreatic Cancer,Stage II,2023-07-14,2024-02-23,Progression,67.7,Regimen B,Sloan Kettering,Dr. Patel,Alive,30216.95,5,29,5
+1400,Colorectal Cancer,Stage III,2023-10-14,2024-06-14,Remission,94.8,Regimen C,Sloan Kettering,Dr. Chen,Alive,31017.52,10,30,3
+1401,Pancreatic Cancer,Stage III,2022-04-17,2022-07-08,Progression,38.1,Regimen D,Cleveland Clinic,Dr. Smith,Deceased,30326.45,6,113,9
+1402,Lung Cancer,Stage III,2022-04-06,2022-05-17,Progression,58,Regimen D,Johns Hopkins,Dr. Patel,Deceased,30833.92,4,67,5
+1403,Breast Cancer,Stage I,2023-06-02,2023-08-05,Deceased,70.1,Regimen A,Mayo Clinic,Dr. Brown,Deceased,30219.6,4,40,5
+1404,Breast Cancer,Stage IV,2023-11-10,2024-01-12,Progression,70.9,Regimen C,Johns Hopkins,Dr. Chen,Alive,43917.62,3,119,4
+1405,Pancreatic Cancer,Stage IV,2023-12-19,2024-08-17,Stable,61,Regimen C,Cleveland Clinic,Dr. Johnson,Alive,45653.78,6,109,4
+1406,Lung Cancer,Stage II,2023-08-22,2023-10-18,Progression,82.5,Regimen A,MD Anderson,Dr. Patel,Alive,30719.4,11,20,1
+1407,Leukemia,Stage I,2023-07-03,2023-11-01,Progression,48.6,Regimen D,Johns Hopkins,Dr. Patel,Alive,28757.33,9,61,7
+1408,Breast Cancer,Stage I,2022-06-11,2023-02-02,Stable,67.2,Regimen A,MD Anderson,Dr. Chen,Deceased,38535.62,9,24,9
+1409,Lung Cancer,Stage I,2023-12-30,2024-04-01,Stable,72.4,Regimen D,Mayo Clinic,Dr. Smith,Alive,30858.33,9,92,3
+1410,Prostate Cancer,Stage II,2022-02-01,2022-06-14,Deceased,80.3,Regimen B,Sloan Kettering,Dr. Patel,Deceased,39746.99,10,16,2
+1411,Breast Cancer,Stage II,2022-05-05,2022-06-07,Remission,84.2,Regimen B,MD Anderson,Dr. Lee,Alive,36521.92,3,37,3
+1412,Prostate Cancer,Stage I,2023-08-20,2024-02-16,Stable,47.5,Regimen A,Sloan Kettering,Dr. Smith,Alive,23631.92,10,60,1
+1413,Melanoma,Stage IV,2022-05-12,2022-07-04,Stable,39.3,Regimen A,Sloan Kettering,Dr. Patel,Alive,46606.29,6,116,6
+1414,Colorectal Cancer,Stage IV,2023-02-09,2023-07-16,Remission,95.6,Regimen D,Cleveland Clinic,Dr. Lee,Alive,48469.08,6,67,7
+1415,Lung Cancer,Stage III,2022-10-14,2023-03-07,Progression,76.6,Regimen A,Mayo Clinic,Dr. Brown,Alive,30404.08,6,14,2
+1416,Melanoma,Stage III,2023-05-26,2023-10-08,Deceased,55,Regimen A,Sloan Kettering,Dr. Johnson,Deceased,32092.24,8,14,8
+1417,Leukemia,Stage II,2023-03-06,2023-05-26,Progression,100,Regimen A,Cleveland Clinic,Dr. Chen,Alive,37143.99,9,103,6
+1418,Leukemia,Stage IV,2022-12-19,2023-09-08,Stable,72.3,Regimen D,Johns Hopkins,Dr. Lee,Alive,37508.43,8,105,4
+1419,Colorectal Cancer,Stage II,2022-01-31,2022-10-17,Stable,93.6,Regimen A,Cleveland Clinic,Dr. Brown,Alive,39939.08,3,17,5
+1420,Colorectal Cancer,Stage II,2022-06-13,2022-08-07,Progression,71.4,Regimen B,Johns Hopkins,Dr. Brown,Alive,50076.53,10,73,8
+1421,Melanoma,Stage I,2022-08-13,2023-02-06,Deceased,100,Regimen C,MD Anderson,Dr. Lee,Deceased,33672.9,9,19,3
+1422,Lung Cancer,Stage III,2023-12-16,2024-04-15,Remission,100,Regimen C,Mayo Clinic,Dr. Brown,Alive,29012.77,8,47,3
+1423,Lung Cancer,Stage IV,2023-07-10,2023-10-27,Progression,65,Regimen D,Sloan Kettering,Dr. Smith,Alive,24655.11,8,105,4
+1424,Colorectal Cancer,Stage II,2022-01-21,2022-07-04,Deceased,89.4,Regimen A,Johns Hopkins,Dr. Brown,Deceased,29518.02,7,101,1
+1425,Lung Cancer,Stage II,2022-12-15,2023-07-16,Progression,82.9,Regimen C,Sloan Kettering,Dr. Smith,Alive,34751.55,8,90,9
+1426,Melanoma,Stage II,2022-04-24,2022-12-26,Stable,97.4,Regimen A,Johns Hopkins,Dr. Adams,Deceased,48459.18,11,104,8
+1427,Leukemia,Stage I,2022-12-11,2023-03-28,Stable,50.7,Regimen B,MD Anderson,Dr. Adams,Deceased,31117.92,11,17,8
+1428,Pancreatic Cancer,Stage IV,2023-10-27,2024-02-15,Progression,83.7,Regimen C,MD Anderson,Dr. Adams,Alive,36678.41,10,113,6
+1429,Lung Cancer,Stage IV,2022-11-11,2023-06-16,Stable,91.2,Regimen B,MD Anderson,Dr. Adams,Alive,34876.83,11,34,7
+1430,Melanoma,Stage IV,2023-08-05,2023-09-12,Progression,34.8,Regimen C,Mayo Clinic,Dr. Lee,Alive,43912.95,10,82,6
+1431,Breast Cancer,Stage IV,2022-05-25,2022-09-16,Remission,46.3,Regimen B,Johns Hopkins,Dr. Johnson,Alive,53951.99,10,75,9
+1432,Breast Cancer,Stage III,2023-04-03,2023-05-05,Stable,29.2,Regimen B,MD Anderson,Dr. Adams,Alive,31018.48,3,88,3
+1433,Prostate Cancer,Stage I,2022-01-02,2022-02-13,Deceased,64.6,Regimen D,Cleveland Clinic,Dr. Lee,Deceased,31329.2,7,59,3
+1434,Leukemia,Stage IV,2023-01-23,2023-05-22,Deceased,84.4,Regimen A,Cleveland Clinic,Dr. Chen,Deceased,42831.21,6,76,3
+1435,Pancreatic Cancer,Stage II,2022-06-16,2022-11-08,Remission,100,Regimen A,Johns Hopkins,Dr. Smith,Alive,40114.19,4,58,3
+1436,Breast Cancer,Stage I,2022-12-17,2023-02-28,Deceased,71.5,Regimen B,Sloan Kettering,Dr. Brown,Deceased,48850.3,10,45,9
+1437,Breast Cancer,Stage III,2023-09-01,2024-03-06,Deceased,100,Regimen A,Cleveland Clinic,Dr. Adams,Deceased,39379.46,5,77,4
+1438,Lung Cancer,Stage IV,2022-06-10,2022-07-23,Remission,42.4,Regimen C,MD Anderson,Dr. Lee,Alive,32305.31,6,87,7
+1439,Colorectal Cancer,Stage III,2023-11-08,2024-02-18,Stable,35.9,Regimen B,Sloan Kettering,Dr. Smith,Alive,39429.91,9,114,9
+1440,Colorectal Cancer,Stage IV,2022-06-07,2022-07-20,Stable,68.9,Regimen A,Cleveland Clinic,Dr. Smith,Alive,43315.28,11,50,7
+1441,Melanoma,Stage IV,2022-07-24,2022-09-16,Remission,77.7,Regimen B,MD Anderson,Dr. Adams,Alive,41153.62,4,98,9
+1442,Breast Cancer,Stage IV,2022-04-29,2022-08-15,Deceased,69.3,Regimen D,Cleveland Clinic,Dr. Adams,Deceased,38804.56,5,71,3
+1443,Prostate Cancer,Stage I,2023-10-20,2024-04-06,Deceased,28.7,Regimen B,Johns Hopkins,Dr. Patel,Deceased,43000.06,6,19,4
+1444,Prostate Cancer,Stage II,2023-04-02,2023-05-13,Stable,68.2,Regimen D,Cleveland Clinic,Dr. Johnson,Alive,43769.72,3,30,8
+1445,Prostate Cancer,Stage I,2022-06-04,2023-01-12,Remission,43.9,Regimen A,Johns Hopkins,Dr. Chen,Alive,45366.19,9,45,6
+1446,Pancreatic Cancer,Stage II,2023-07-21,2023-09-04,Deceased,83.4,Regimen D,Mayo Clinic,Dr. Adams,Deceased,39865.32,4,21,5
+1447,Pancreatic Cancer,Stage IV,2023-08-10,2024-04-21,Progression,77.3,Regimen D,Johns Hopkins,Dr. Smith,Alive,33746.61,7,100,4
+1448,Pancreatic Cancer,Stage I,2023-05-30,2023-11-22,Progression,51.2,Regimen A,Cleveland Clinic,Dr. Lee,Deceased,36100.35,3,113,8
+1449,Lung Cancer,Stage II,2022-07-17,2022-09-17,Remission,59.7,Regimen D,Sloan Kettering,Dr. Adams,Alive,44048.82,5,11,1
+1450,Pancreatic Cancer,Stage II,2023-09-02,2023-12-07,Stable,48.8,Regimen A,Sloan Kettering,Dr. Patel,Alive,28872.98,4,22,9
